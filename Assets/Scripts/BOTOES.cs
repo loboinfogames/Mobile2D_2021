@@ -9,9 +9,15 @@ public class BOTOES : MonoBehaviour
     {
         SceneManager.LoadScene("MENU");
     }
+    public void CarregarOption() {
+        SceneManager.LoadScene("OPTION");
+    }
+    public void CarregarGameIntro() {
+        SceneManager.LoadScene("GAMEINTRO");
+    }
     public void CarregarGAME()
     {//Chama no Onclick do botao de menu
-        SceneManager.LoadScene("GAME");
+        SceneManager.LoadScene("GAMEF1");
     }
 
     public void CarregarGAMEOVER()
